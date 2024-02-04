@@ -15,12 +15,14 @@ require('src/connect.php');
 <body>
     <div class="container">
         <form class="register-form" action="./src/register.php" method="post">
-           <div>
-           <label for="Fistname">fist name</label>
-            <input type="text" id="fname" name="fname" placeholder="first name">
-            <label for="lastname">Last name</label>
-            <input type="text" id="lname" name="lname" placeholder="last name">
-           </div>
+            <div style="display: flex; flex-direction: column; align-items: center; margin: 12px 0;" class="div-name">
+            <label style="font-size: 1.2em; margin-right: auto;">Name</label>
+                <div style="display: flex; margin: 6px 0;" class="div-input">
+                <label for="Fistname"></label>
+                <input type="text" id="fname" name="fname" placeholder="first name">
+                <label for="lastname"></label>
+                <input type="text" id="lname" name="lname" placeholder="last name"></div>
+            </div>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="email">
             <label for="username">Username</label>

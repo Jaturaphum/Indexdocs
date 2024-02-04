@@ -1,8 +1,9 @@
-html, body {
+html,
+body {
     font-family: Arial, sans-serif;
     height: 100%;
     margin: 0;
-  }
+}
 
 .container {
     display: flex;
@@ -10,30 +11,54 @@ html, body {
     align-items: center;
     height: 100vh;
     /*background-image: url('https://source.unsplash.com/random');*/
-    background-color: #a3a3a3;
+    background-color: #000000;
     background-size: cover;
-  }
-        .register-form {
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 5px;
-            width: 300px;
-        }
-        .register-form input[type="text"], .register-form input[type="email"], .register-form input[type="password"] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-        }
-        .register-form button {
-            background-color: #1b5aa1;
-            color: white;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-        }
-        .register-form button:hover {
-            opacity: 0.8;
-        }
+}
+
+.register-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    width: 420px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+
+.register-form button {
+    background-color: #1b5aa1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.register-form button:hover {
+    opacity: 0.8;
+}
+
+.div-name > .div-input > #fname{
+    width: 100%;
+    /* padding: 12px 20px; */
+    margin: auto;
+    padding: auto;
+    margin-right: 12px;
+    box-sizing: border-box;
+}
+
+.div-name > .div-input > #lname{
+    width: 100%;
+    /* padding: 12px 20px; */
+    margin: auto;
+    padding: auto;
+    margin-left: 12px;
+    box-sizing: border-box;
+}

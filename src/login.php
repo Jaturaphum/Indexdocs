@@ -9,6 +9,7 @@ $password = $_POST['password'];
 $user_id = loginuser($conn, $username, $password);
 
 if ($user_id) {
+    $_SESSION['username'] = $username;
     header("Location: ../index.php?login_status={$user_id}");
     exit();
 } else {
@@ -16,4 +17,5 @@ if ($user_id) {
     header("Location: ../login.php?login_status=0");
     exit();
 }
+
 ?>

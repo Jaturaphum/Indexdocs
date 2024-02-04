@@ -38,7 +38,7 @@ body:has(.card[data-color="brown"]:hover) {
   background-color: rgb(var(--brown-rgb) / 25%);
 }
 
-.contant {
+.container {
   margin: 3.5em;
   padding: 2em;
 }
@@ -74,20 +74,20 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-right: 20px;
-  background-color: #000000;
-  border-radius: 0.6em;
-  padding: 1.2em;
-  height: 28px;
-  width: 312px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+    margin-right: 20px;
+    /* background-color: #000000; */
+    border-radius: 0.6em;
+    /* padding: 1.2em; */
+    height: 28px;
+    width: 312px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
 }
 
 nav a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 

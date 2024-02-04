@@ -16,14 +16,14 @@ session_start();
     <div class="div-header">
     <nav>
       <ul>
-        <li><a href="profile.php">Edit</a></li>
+        <li><a href="profile.php"><?php echo $_SESSION['username']; ?></a></li>
         <li><a href="index.php">Home</a></li>
         <li><a href="login.php?logout=1">Logout</a></li>
       </ul>
     </nav>
     </div>
   </header>
-  <div class="contant">
+  <div class="container">
     <div id="cards">
       <div class="card" data-color="blue">
         <img class="card-front-image card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
