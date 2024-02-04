@@ -1,0 +1,37 @@
+.update-profile button:hover {
+    opacity: 0.8;
+}
+
+.update-profile input[type="text"],
+.update-profile input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }  
+
+.update-profile button {
+    background-color: #1b5aa1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 28em;
+}
+
+.update-profile button:hover {
+    opacity: 0.8;
+}
+
+.update-profile {
+    display: flex;
+    /* margin: 1.5em; */
+    /* padding: 1.2em; */
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,57 @@
+html, body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background-image: url('https://source.unsplash.com/random');*/
+    background-color: #a3a3a3;
+    background-size: cover;
+  }
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+.login-form input[type="text"], .login-form input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.login-form button {
+    background-color: #1b5aa1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 2px;
+}
+.login-form button:hover {
+    opacity: 0.8;
+}
+
+.column-butt {
+    display: flex;
+    gap: 10px;
+}
+
+p {
+    text-align: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+

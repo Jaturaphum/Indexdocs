@@ -1,0 +1,122 @@
+html,
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 18px;
+    border-radius: 1.25em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: ruby-text;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+nav span {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 2em;
+    justify-content: center;
+}
+
+    .profile-form {
+        display: flex;
+    margin: 1.5em;
+    padding: 1.2em;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    }
+
+    .profile-form input[type="text"],
+    .profile-form input[type="email"],
+    .profile-form input[type="password"],
+    .profile-form input[type="number"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }  
+
+.profile-form button {
+    background-color: #1b5aa1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 28em;
+}
+
+.profile-form button:hover {
+    opacity: 0.8;
+}
+
+.update-pss-form input[type="text"],
+.update-pss-form input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }  
+
+.update-pss-form button {
+    background-color: #1b5aa1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 28em;
+}
+
+.update-pss-form button:hover {
+    opacity: 0.8;
+}
+
+.update-pss-form {
+    display: flex;
+    margin: 1.5em;
+    padding: 1.2em;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
