@@ -1,5 +1,6 @@
 <?php
 session_start();
+require('src/services/connect.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,9 +17,9 @@ session_start();
     <div class="div-header">
     <nav>
       <ul>
-        <li><a href="profile.php"><?php echo $_SESSION['username']; ?></a></li>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="login.php?logout=1">Logout</a></li>
+        <li><a href="./edit.php?"><?php echo $_SESSION['username']; ?></a></li>
+        <li><a href="./index.php?">Home</a></li>
+        <li><a href="./login.php?status=1">Logout</a></li>
       </ul>
     </nav>
     </div>
@@ -67,5 +68,4 @@ session_start();
     </div>
   </div>
 </body>
-
 </html>

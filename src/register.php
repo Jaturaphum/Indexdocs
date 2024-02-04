@@ -1,7 +1,7 @@
 <?php
 session_start();
 require('./db/register_db.php');
-require('./connect.php');
+require('./services/connect.php');
 
 
 $firstname = $_POST['fname'];

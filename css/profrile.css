@@ -30,12 +30,13 @@ body {
   }
   
   .div-header {
-    background-color: #ffffff;
     width: 50%;
     height: auto;
     border-radius: 1.25em;
     margin: 0;
     padding: 1.2em;
+    backdrop-filter: blur(5px);
+    background-color: rgb(255 255 255 / 22%);
   }
 
   header {
@@ -73,7 +74,7 @@ body {
   }
   
   nav a {
-    color: #000;
+    color: #ffffff;
       text-decoration: none;
   }
   

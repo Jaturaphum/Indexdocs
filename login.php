@@ -1,6 +1,6 @@
 <?php
 session_start();
-require('src/connect.php');
+require('src/services/connect.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,13 +17,14 @@ require('src/connect.php');
         <form class="login-form" action="./src/login.php" method="post">
             <h1 style="text-align: center;">Login</h1>
             <div class="column-login">
-                <label for="username">Username</label>
-               <?php
+                <?php
+                session_destroy();
                 if (isset($_SESSION['error_message'])) {
                     echo '<div><p style="color: red; text-align: center;">' . $_SESSION['error_message'] . '</p></div>';
                     unset($_SESSION['error_message']);
                 }
                 ?>
+                <label for="username">Username</label>
                 <input type="text" id="username" placeholder="username" name="username" required>
                 <label for="password">Password</label>
                 <input type="password" id="password" placeholder="password" name="password" required>
@@ -36,5 +37,4 @@ require('src/connect.php');
         </form>
     </div>
 </body>
-
 </html>

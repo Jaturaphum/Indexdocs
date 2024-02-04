@@ -1,7 +1,7 @@
 <?php
 session_start();
 require('./db/login_db.php');
-require('./connect.php');
+require('./services/connect.php');
 
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -13,9 +13,8 @@ if ($user_id) {
     header("Location: ../index.php?login_status={$user_id}");
     exit();
 } else {
-    $_SESSION['error_message'] = 'ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง';
+    $_SESSION['error_message'] = ' username or password is incorrect!';
     header("Location: ../login.php?login_status=0");
     exit();
 }
-
 ?>
