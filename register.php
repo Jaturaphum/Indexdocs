@@ -15,6 +15,7 @@ require('src/connect.php');
 <body>
     <div class="container">
         <form class="register-form" action="./src/register.php" method="post">
+            <h1 style="text-align: center;">Sign Up</h1>
             <div style="display: flex; flex-direction: column; align-items: center; margin: 12px 0;" class="div-name">
             <label style="font-size: 1.2em; margin-right: auto;">Name</label>
                 <div style="display: flex; margin: 6px 0;" class="div-input">
@@ -31,7 +32,7 @@ require('src/connect.php');
             <input type="password" id="password_1" name="password_1" placeholder="password">
             <label for="confirm password">confirm Password</label>
             <input type="password" id="password_2" name="password_2" placeholder="confirm password">
-            <button type="submit" name="signup">Register</button>
+            <button type="submit" name="signup">Sign Up</button>
         </form>
     </div>
 </body>

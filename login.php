@@ -15,6 +15,7 @@ require('src/connect.php');
 <body>
     <div class="container">
         <form class="login-form" action="./src/login.php" method="post">
+            <h1 style="text-align: center;">Login</h1>
             <div class="column-login">
                 <label for="username">Username</label>
                <?php
@@ -30,6 +31,7 @@ require('src/connect.php');
             <div class="column-butt">
                 <button type="submit" name="bttlogin">Login</button>
             </div>
+            <hr>
             <p><a href="register.php">Sign Up</a></p>
         </form>
     </div>
