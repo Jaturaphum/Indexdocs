@@ -27,42 +27,42 @@ require('src/services/connect.php');
   <div class="container">
     <div id="cards">
       <div class="card" data-color="blue">
-        <img class="card-front-image card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
+        <img class="card-front-image card-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" />
         <div class="card-faders">
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+fall+guys.png?format=auto&quality=80" />
+          <img class="card-fader card-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" />
+          <img class="card-fader card-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" />
+          <img class="card-fader card-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" />
+          <img class="card-fader card-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" />
+          <img class="card-fader card-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" />
+          <img class="card-fader card-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" />
+          <img class="card-fader card-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" />
+          <img class="card-fader card-image" src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3JtNjg1ZGVzaWduLXRuLXJlbWl4LTAwMWMuanBn.jpg" />
         </div>
       </div>
       <div class="card" data-color="green">
-        <img class="card-front-image card-image" src="https://assets.codepen.io/1468070/game+cover+-+minecraft.png?format=auto&quality=80" />
+        <img class="card-front-image card-image" src="https://w0.peakpx.com/wallpaper/174/20/HD-wallpaper-interno-smartphone-icio.jpg" />
         <div class="card-faders">
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+minecraft.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+minecraft.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+minecraft.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+minecraft.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+minecraft.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+minecraft.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+minecraft.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+minecraft.png?format=auto&quality=80" />
+          <img class="card-fader card-image" src="https://w0.peakpx.com/wallpaper/174/20/HD-wallpaper-interno-smartphone-icio.jpg" />
+          <img class="card-fader card-image" src="https://w0.peakpx.com/wallpaper/174/20/HD-wallpaper-interno-smartphone-icio.jpg" />
+          <img class="card-fader card-image" src="https://w0.peakpx.com/wallpaper/174/20/HD-wallpaper-interno-smartphone-icio.jpg" />
+          <img class="card-fader card-image" src="https://w0.peakpx.com/wallpaper/174/20/HD-wallpaper-interno-smartphone-icio.jpg" />
+          <img class="card-fader card-image" src="https://w0.peakpx.com/wallpaper/174/20/HD-wallpaper-interno-smartphone-icio.jpg" />
+          <img class="card-fader card-image" src="https://w0.peakpx.com/wallpaper/174/20/HD-wallpaper-interno-smartphone-icio.jpg" />
+          <img class="card-fader card-image" src="https://w0.peakpx.com/wallpaper/174/20/HD-wallpaper-interno-smartphone-icio.jpg" />
+          <img class="card-fader card-image" src="https://w0.peakpx.com/wallpaper/174/20/HD-wallpaper-interno-smartphone-icio.jpg" />
         </div>
       </div>
       <div class="card" data-color="brown">
-        <img class="card-front-image card-image" src="https://assets.codepen.io/1468070/game+cover+-+tetris.png?format=auto&quality=80" />
+        <img class="card-front-image card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5pvztNxRgCEZct0OJtina8FEdjSYRjYefg&usqp=CAU" />
         <div class="card-faders">
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+tetris.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+tetris.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+tetris.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+tetris.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+tetris.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+tetris.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+tetris.png?format=auto&quality=80" />
-          <img class="card-fader card-image" src="https://assets.codepen.io/1468070/game+cover+-+tetris.png?format=auto&quality=80" />
+          <img class="card-fader card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5pvztNxRgCEZct0OJtina8FEdjSYRjYefg&usqp=CAU" />
+          <img class="card-fader card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5pvztNxRgCEZct0OJtina8FEdjSYRjYefg&usqp=CAU" />
+          <img class="card-fader card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5pvztNxRgCEZct0OJtina8FEdjSYRjYefg&usqp=CAU" />
+          <img class="card-fader card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5pvztNxRgCEZct0OJtina8FEdjSYRjYefg&usqp=CAU" />
+          <img class="card-fader card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5pvztNxRgCEZct0OJtina8FEdjSYRjYefg&usqp=CAU" />
+          <img class="card-fader card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5pvztNxRgCEZct0OJtina8FEdjSYRjYefg&usqp=CAU" />
+          <img class="card-fader card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5pvztNxRgCEZct0OJtina8FEdjSYRjYefg&usqp=CAU" />
+          <img class="card-fader card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW5pvztNxRgCEZct0OJtina8FEdjSYRjYefg&usqp=CAU" />
         </div>
       </div>
     </div>

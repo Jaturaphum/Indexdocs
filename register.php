@@ -15,7 +15,7 @@ require('src/services/connect.php');
 <body>
     <div class="container">
         <form class="register-form" action="./src/register.php" method="post">
-            <h1 style="text-align: center;">Sign Up</h1>
+            <h1 style="text-align: center;"></h1>
             <div style="display: flex; flex-direction: column; align-items: center; margin: 12px 0;" class="div-name">
                 <label style="font-size: 1.2em; margin-right: auto;">Name</label>
                 <div style="display: flex; margin: 6px 0;" class="div-input">

@@ -15,7 +15,7 @@ require('src/services/connect.php');
 <body>
     <div class="container">
         <form class="login-form" action="./src/login.php" method="post">
-            <h1 style="text-align: center;">Login</h1>
+            <h1 style="text-align: center;"></h1>
             <div class="column-login">
                 <?php
                 session_destroy();

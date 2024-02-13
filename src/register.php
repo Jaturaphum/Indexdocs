@@ -3,7 +3,6 @@ session_start();
 require('./db/register_db.php');
 require('./services/connect.php');
 
-
 $firstname = $_POST['fname'];
 $lastname = $_POST['lname'];
 $email = $_POST['email'];
